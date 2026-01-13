@@ -1,14 +1,7 @@
-<table>
-  <tr>
-    <td align="center">
-      <img src="assets/GUI1.png" width="300"/><br/>
-      <b>Image 1</b>
-    </td>
-    <td align="center">
-      <img src="assets/GUI2.png" width="300"/><br/>
-      <b>Image 2</b>
-    </td>
-
+<p align="center">
+  <img src="assets/GUI1.png" width="45%" />
+  <img src="assets/GUI2.png" width="45%" />
+</p>
 
 # CUTCAPTCHASOLVER
 
