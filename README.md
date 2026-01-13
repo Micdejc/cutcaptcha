@@ -55,6 +55,7 @@ To improve the application we are looking forward to explore:
 Thanks to :
 - Hamza Attak
 - Ian Johnson
+- Phil Legg
 
 ## License
 All right reserved.
