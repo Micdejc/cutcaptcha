@@ -1,3 +1,15 @@
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/GUI1.png" width="300"/><br/>
+      <b>Image 1</b>
+    </td>
+    <td align="center">
+      <img src="assets/GUI2.png" width="300"/><br/>
+      <b>Image 2</b>
+    </td>
+
+
 # CUTCAPTCHASOLVER
 
 Msc Project (UWE Bristol) providing a CAPTCHA solver for cutcaptcha. If you want to know what is a cutcaptcha, follow the link: https://filecrypt.cc/Contact.html
