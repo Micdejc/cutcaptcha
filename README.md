@@ -15,7 +15,7 @@ Msc Project (UWE Bristol) providing a CAPTCHA solver for cutcaptcha. If you want
 CutCAPTCHA displays an incomplete image with three puzzle pieces and asks users to assemble the image. Users must drag and drop the three puzzle pieces into the correct position to pass the CAPTCHA test. For a demo follow the link: https://filecrypt.cc/Contact.html. This project provides an application to solve cutcaptcha challenges by giving a solution to the challenge as (x,y) coordinates.
 
 ## Installation
-The project has been developed using Jupyter Notebook on a Linux operating system (Ubuntu 20.04), so to run the application:
+The project has been developed using Jupyter Notebook, so to run the application:
 
 * Clone the repository, enter the project's folder and launch the notebook:
 ```
