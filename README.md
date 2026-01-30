@@ -43,11 +43,6 @@ The application is quite user friendly, there are two buttons: **New** and **Sol
 - **New** allows you to download the images of a cutcaptcha challenge from the Internet and displays them on the application
 - **Solve** launches the solver for the challenge downloaded and print out on the application the solution of the challenge as (x,y) coordinates denoting the respective correct positions of the puzzle pieces.
 
-<!-- ## Support
-
-For any enquiry related to the project please contact:
-	micdejc@gmail.com
-	hamza.attak@gmail.com -->
 
 ## Roadmap
 To improve the application we are looking forward to explore:
@@ -55,12 +50,6 @@ To improve the application we are looking forward to explore:
 - **The measurement of the image colour continuity** in combination with the proposed approach to improve the accuracy of the suggested solver
 - **The calculation of the right values of Sigma and Threshold** while using the canny egde detection algorithm since in this project, static values have been used and affect in some point the accuracy of the proposed solver.
 
-
-<!-- ## Authors and acknowledgment
-Thanks to :
-- Hamza Attak
-- Ian Johnson
-- Phil Legg -->
 
 ## License
 All right reserved.
