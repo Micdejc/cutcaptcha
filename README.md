@@ -5,7 +5,7 @@
 
 # CUTCAPTCHASOLVER
 
-Msc Project (UWE Bristol) providing a CAPTCHA solver for cutcaptcha. If you want to know what is a cutcaptcha, follow the link: https://filecrypt.cc/Contact.html
+This Project provides a CAPTCHA solver for cutcaptcha. If you want to know what is a cutcaptcha, follow the link: https://filecrypt.cc/Contact.html
 
 
 ## Name
