@@ -27,12 +27,12 @@ The project is implemented in **Python using Jupyter Notebook**. To run the syst
 ### 1. Clone the repository
 ```bash
 cd cutcaptcha
-jupyter-notebook GUI.ipynb
+jupyter-notebook cutcaptchasolver.ipynb
 ```
 
 ### 2. Open in browser
 ```
-http://localhost:8888/notebooks/GUI.ipynb
+http://localhost:8888/notebooks/cutcaptchasolver.ipynb
 ```
 ### 3. Dependencies
 Install the required packages:
