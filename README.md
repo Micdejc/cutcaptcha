@@ -5,51 +5,61 @@
 
 # CUTCAPTCHASOLVER
 
-This Project provides a CAPTCHA solver for cutcaptcha. If you want to know what is a cutcaptcha, follow the link: https://filecrypt.cc/Contact.html
+## Overview
+**CUTCAPTCHASOLVER** is a research prototype that implements an automated solver for cutCAPTCHA challenges.
 
+For background information and a public demonstration of cutCAPTCHA, refer to:  
+https://filecrypt.cc/Contact.html
 
-## Name
-**CUTCAPTCHASOLVER** is an application that provides solution to cutcaptcha challenges.
+---
 
 ## Description
-CutCAPTCHA displays an incomplete image with three puzzle pieces and asks users to assemble the image. Users must drag and drop the three puzzle pieces into the correct position to pass the CAPTCHA test. For a demo follow the link: https://filecrypt.cc/Contact.html. This project provides an application to solve cutcaptcha challenges by giving a solution to the challenge as (x,y) coordinates.
+cutCAPTCHA is a puzzle-based CAPTCHA that presents a partially reconstructed image and requires users to correctly reposition three missing fragments using drag-and-drop interactions.
+
+This project implements an automated attack pipeline that estimates the correct placement of the three puzzle fragments and outputs their corresponding \((x, y)\) coordinates within the challenge image.
+
+---
 
 ## Installation
-The project has been developed using Jupyter Notebook, so to run the application:
 
-* Clone the repository, enter the project's folder and launch the notebook:
-```
+The project is implemented in **Python using Jupyter Notebook**. To run the system:
+
+### 1. Clone the repository
+```bash
 cd cutcaptcha
 jupyter-notebook GUI.ipynb
 ```
 
-* Then on your browser go to:
+### 2. Open in browser
 ```
 http://localhost:8888/notebooks/GUI.ipynb
 ```
-Non-exhaustive list of dependencies to install on Debian-based machines:
+### 3. Dependencies
+Install the required packages:
 ```
 	jupyter-notebook
 	python-numpy
 	python3-opencv
 	python3-tk
 ```
-Once on the notebook, click on the "Cell" menu, then "Run all"
+Once on the notebook, click on the "Cell" menu, then "Run"
 
 ## Usage
 
-The application is quite user friendly, there are two buttons: **New** and **Solve**:
+The application provides a simple graphical interface with two main actions:
 
-- **New** allows you to download the images of a cutcaptcha challenge from the Internet and displays them on the application
-- **Solve** launches the solver for the challenge downloaded and print out on the application the solution of the challenge as (x,y) coordinates denoting the respective correct positions of the puzzle pieces.
+- **New:** Downloads a new cutCAPTCHA challenge and displays the challenge image along with the puzzle fragments.
+- **Solve:** Executes the solver pipeline and outputs the estimated solution as \((x, y)\) coordinates corresponding to the correct placement of each puzzle fragment.
 
 
-## Roadmap
-To improve the application we are looking forward to explore:
+## Roadmap / Future Improvements
+Future work aims to improve the robustness and generalization of the solver by exploring the following directions:
 
-- **The measurement of the image colour continuity** in combination with the proposed approach to improve the accuracy of the suggested solver
-- **The calculation of the right values of Sigma and Threshold** while using the canny egde detection algorithm since in this project, static values have been used and affect in some point the accuracy of the proposed solver.
+- Incorporation of **color continuity features** to improve matching accuracy in visually similar fragments.
+- **Adaptive parameter selection** for Canny edge detection to replace fixed threshold values and improve accuracy across diverse images.
 
+## Disclaimer
+This project is intended for **research and security analysis purposes only**, focusing on evaluating the resilience of puzzle-based CAPTCHA systems under controlled experimental conditions.
 
 ## License
 All right reserved.
