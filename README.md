@@ -47,6 +47,10 @@ Install the required packages:
 ```
 Once on the notebook, click on the "Cell" menu, then "Run"
 
+## Reproducibility
+
+A note for hardware: all experiments we run  on a standard desktop machine equipped with an Intel Core i5-6500 CPU@3.20 GHz with 16 GB of RAM. 
+
 ## Usage
 
 The application provides a simple graphical interface with two main actions:
@@ -60,6 +64,13 @@ Future work aims to improve the robustness and generalization of the solver by e
 
 - Incorporation of **color continuity features** to improve matching accuracy in visually similar fragments.
 - **Adaptive parameter selection** for Canny edge detection to replace fixed threshold values and improve accuracy across diverse images.
+
+## Contributions
+Special thanks to the following co-authors:
+- Hamza Attak
+- Ian Johnson
+- [Phil Legg](https://github.com/pa-legg)
+
 
 ## Disclaimer
 This project is intended for **research and security analysis purposes only**, focusing on evaluating the resilience of puzzle-based CAPTCHA systems under controlled experimental conditions.
