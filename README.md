@@ -12,6 +12,9 @@ For background information and a public demonstration of cutCAPTCHA, refer to:
 https://filecrypt.cc/Contact.html
 
 ---
+## Updates
+- (2026-04-03) Paper was accepted at the 2026 IEEE International Conference on Cyber Security and Resilience (IEEE CSR), to be held at Lisbon, Portugal from August 3–5, 2026.
+---
 
 ## Description
 cutCAPTCHA is a puzzle-based CAPTCHA that presents a partially reconstructed image and requires users to correctly reposition three missing fragments using drag-and-drop interactions.
