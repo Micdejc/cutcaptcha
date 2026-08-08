@@ -13,6 +13,7 @@ https://filecrypt.cc/Contact.html
 
 ---
 ## Updates
+- (2026-08-05) The paper was presented at the 6th IEEE International Conference On Cyber Security and Resilience, Lisbon, Portugal. LinkedIn Post: [Here](https://www.linkedin.com/posts/michael-tchuindjang-38829317b_cybersecurity-ai-research-ugcPost-7490925236801048576-ZsoO)
 - (2026-04-08) Paper was accepted at the 2026 IEEE International Conference on Cyber Security and Resilience (IEEE CSR), to be held at Lisbon, Portugal from August 3–5, 2026.
 ---
 
