@@ -3,10 +3,10 @@
   <img src="assets/GUI2.png" width="45%" />
 </p>
 
-# CUTCAPTCHASOLVER
+# Automatic Bypassing of cutCAPTCHA Using Canny Edge detection and Template Matching
 
 ## Overview
-**CUTCAPTCHASOLVER** is a research prototype that implements an automated solver for cutCAPTCHA challenges.
+This repository contains a research prototype developed at the University of the West of England (UWE), UK, in 2022. It implements a lightweight automated solver for CutCAPTCHA challenges without using machine learning or artificial intelligence.
 
 For background information and a public demonstration of cutCAPTCHA, refer to:  
 https://filecrypt.cc/Contact.html
