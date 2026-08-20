@@ -3,7 +3,7 @@
   <img src="assets/GUI2.png" width="45%" />
 </p>
 
-# Automatic Bypassing of cutCAPTCHA Using Canny Edge detection and Template Matching
+# Automated CutCAPTCHA Bypassing Using Canny Edge Detection and Template Matching
 
 ## Overview
 This repository contains a research prototype developed at the University of the West of England (UWE), UK. t implements a lightweight, zero-cost automated solver for CutCAPTCHA challenges without relying on machine learning or artificial intelligence.
