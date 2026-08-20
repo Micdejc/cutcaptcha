@@ -6,7 +6,7 @@
 # Automated CutCAPTCHA Bypassing Using Canny Edge Detection and Template Matching
 
 ## Overview
-This repository contains a research prototype developed at the University of the West of England (UWE), UK. t implements a lightweight, zero-cost automated solver for CutCAPTCHA challenges without relying on machine learning or artificial intelligence.
+This repository contains a research prototype developed at the University of the West of England (UWE), UK. It implements a lightweight, zero-cost automated solver for CutCAPTCHA challenges without relying on machine learning or artificial intelligence.
 
 For background information and a public demonstration of cutCAPTCHA, refer to:  
 https://filecrypt.cc/Contact.html
